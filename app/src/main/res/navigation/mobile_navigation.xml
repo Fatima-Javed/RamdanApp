@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.ramadan_app.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_iftar"
+        android:name="com.example.ramadan_app.iftar"
+        android:label="Iftar/Suhoor"
+        tools:layout="@layout/fragment_iftar" />
+
+    <fragment
+        android:id="@+id/nav_dua"
+        android:name="com.example.ramadan_app.ui.dua.DuaFragment"
+        android:label="Dua"
+        tools:layout="@layout/fragment_dua" />
+
+    <fragment
+        android:id="@+id/nav_names"
+        android:name="com.example.ramadan_app.ui.names.NameFragment"
+        android:label="99 Allah Names"
+        tools:layout="@layout/fragment_names" />
+
+    <fragment
+        android:id="@+id/nav_guide"
+        android:name="com.example.ramadan_app.ui.guide.GuideFragment"
+        android:label="Guide"
+        tools:layout="@layout/fragment_guide" />
+
+
+    <fragment
+        android:id="@+id/nav_prayer"
+        android:name="com.example.ramadan_app.ui.prayer.PrayerFragment"
+        android:label="Prayer"
+        tools:layout="@layout/fragment_prayer" />
+
+
+
+
+</navigation>
